@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B052260F-933B-4FAB-9785-4B0BE40F9B24</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tarotarot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EEB3452F03898735CFF416633027C20F23F0B1DE</key>
+		<string>github.com:chaojimiaomiao/Tarotarot.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tarotarot.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EEB3452F03898735CFF416633027C20F23F0B1DE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:chaojimiaomiao/Tarotarot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEB3452F03898735CFF416633027C20F23F0B1DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEB3452F03898735CFF416633027C20F23F0B1DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tarotarot</string>
+		</dict>
+	</array>
+</dict>
+</plist>

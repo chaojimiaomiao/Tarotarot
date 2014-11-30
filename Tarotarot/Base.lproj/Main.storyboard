@@ -27,6 +27,9 @@
                                 <state key="normal" image="crystal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playMusic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xL2-rG-N1W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5d-d3-yA1">
                                 <rect key="frame" x="30" y="400" width="104" height="105"/>
@@ -60,11 +63,11 @@
                             <constraint firstItem="1x2-bG-xxL" firstAttribute="top" secondItem="dhH-Uv-xoH" secondAttribute="bottom" constant="100" id="S8Y-LR-doh"/>
                             <constraint firstItem="DhI-l3-0qQ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Vu0-EY-OtY"/>
                             <constraint firstItem="kYY-af-LOw" firstAttribute="top" secondItem="H5d-d3-yA1" secondAttribute="bottom" constant="100" id="XZv-SQ-dE1">
-                                <variation key="heightClass=regular-widthClass=compact" constant="90"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="70"/>
                             </constraint>
                             <constraint firstAttribute="trailing" secondItem="DhI-l3-0qQ" secondAttribute="trailing" id="XfC-hR-rnL"/>
                             <constraint firstItem="kYY-af-LOw" firstAttribute="top" secondItem="dhH-Uv-xoH" secondAttribute="bottom" constant="100" id="bqy-H0-YdR">
-                                <variation key="heightClass=regular-widthClass=compact" constant="90"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="70"/>
                             </constraint>
                             <constraint firstItem="H5d-d3-yA1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="14" id="fYr-L4-jii"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dhH-Uv-xoH" secondAttribute="trailing" constant="14" id="ntQ-dg-kyQ"/>
@@ -104,15 +107,18 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="crystalButton" destination="1x2-bG-xxL" id="KiF-OK-dC3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.75" y="135.21126760563379"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="kca-fV-gz7">
             <objects>
-                <viewController id="rtz-qH-GO1" sceneMemberID="viewController">
+                <viewController id="rtz-qH-GO1" customClass="GalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AZB-bZ-iY8"/>
                         <viewControllerLayoutGuide type="bottom" id="8iJ-GX-oZI"/>
@@ -198,10 +204,10 @@
             </objects>
             <point key="canvasLocation" x="828" y="135"/>
         </scene>
-        <!--View Controller-->
+        <!--Cards Array Controller-->
         <scene sceneID="Dco-FN-d2s">
             <objects>
-                <viewController id="tMA-Rh-uMS" sceneMemberID="viewController">
+                <viewController id="tMA-Rh-uMS" customClass="CardsArrayController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8AA-Yk-568"/>
                         <viewControllerLayoutGuide type="bottom" id="KeR-cD-284"/>
