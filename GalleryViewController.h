@@ -8,6 +8,15 @@
 
 #import "BaseViewController.h"
 
-@interface GalleryViewController : BaseViewController
+@interface GalleryViewController : BaseViewController<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+
+@property(nonatomic, strong) IBOutlet UICollectionView *collection;
+@property(nonatomic, strong) IBOutlet UIView *backgroundView;
 
 @end
+
+//@interface ImageCell : UICollectionViewCell
+//
+//@property(nonatomic, strong) UIImageView *cardImageView;
+//
+//@end
